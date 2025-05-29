@@ -1,0 +1,7 @@
+
+    Can you tell me the diff between throttling and debouncing ?
+    Can you tell me the difference between promise.all and promise.allSettled
+
+
+
+    

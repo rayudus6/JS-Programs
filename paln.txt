@@ -1,0 +1,23 @@
+console.log(num);
+var num=100;
+
+
+console.log(add(1,2))//3
+var add=function(a,b){
+    return a+b
+}
+
+
+function outer(){
+    var a=100;
+    return function(){
+        console.log(a)
+    }
+}
+
+var inner=outer()
+inner()
+
+function add(){
+    console.log(this)
+}

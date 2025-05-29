@@ -1,0 +1,21 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+               const xhr=new XMLHttpRequest();
+                xhr.open('GET','https://restcountries.com/v3.1/all?fields=name,capital')
+                xhr.send()
+
+                xhr.onload=function() {
+                    const users=xhr.responseText;
+                   const data=JSON.parse(users)
+                //    console.log(users)
+                   console.log(data);
+                }
+                // xhr.onerror=function(){
+                //     console.log(xhr.responseText)
+                // }  
+
+        </script>
+    </body>
+</html>
