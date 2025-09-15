@@ -3,10 +3,9 @@ var a = 10;
 
 var x = 5;
 function y() {
-  // console.log(x);
-  x = 8;
+  console.log(x);
+  var x = 8;
 }
-// y();
 console.log(x);
 
 for (var i = 0; i <= 5; i++) {
